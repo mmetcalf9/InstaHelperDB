@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" class="home">
+<link type="text/css" rel="stylesheet" href= "{{ url_for('static', filename='style.css') }}"/>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <h1>Instagram Helper</h1>
+</head>
+
+<div id="login_parent">
+    <form method="POST" action="" id="form_login">
+    Username <input type="text" name="username" placeholder="@Username" id="entry_field" />
+    <br><br>
+    Name <input type="text" name="name" placeholder="John Doe" id="entry_field" />
+    <br><br>
+    <input type="submit" id="submit_button">
+    </form>
+</div>
+
+</html>

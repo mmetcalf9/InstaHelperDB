@@ -1,0 +1,63 @@
+body {
+    background-color: #292929;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #FFFFFF;
+}
+
+.home {
+    background-color: #292929;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #FFFFFF;
+}
+
+h1{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 260px;
+}
+
+.user-data {
+    margin: auto;
+    width: 200px;
+    vertical-align: middle;
+    horiz-align: center;
+    border-radius: 12px;
+    padding: 5px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+}
+
+#entry_field {
+    border-radius: 12px;
+    padding: 4px 5px;
+    border: #FFFFFF;
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+#submit_button {
+    background-color: #1BDECB;
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    border-radius: 12px;
+    padding: 6px 20px;
+    border: #1BDECB;
+}
+
+#login_parent {
+    padding: 30px 20px;
+    display: table;
+    width: 20%;
+    background-color: #3C4042;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#form_login {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
